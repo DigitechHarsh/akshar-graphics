@@ -29,13 +29,17 @@ export default function Navbar() {
         <motion.div 
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
-          className="relative h-14"
+          className="flex items-center gap-4 h-12"
         >
           <img 
             src="/media/logo.png" 
-            alt="Akshar Graphics" 
-            className="h-full w-auto object-contain mix-blend-multiply transition-opacity duration-300"
+            alt="Akshar Graphics Logo" 
+            className="h-full w-auto object-contain mix-blend-multiply"
           />
+          <div className="flex flex-col -gap-1">
+            <span className="text-xl font-black text-slate-900 tracking-tighter leading-none">AKSHAR</span>
+            <span className="text-xs font-bold text-primary tracking-[0.2em] leading-none uppercase">Graphics</span>
+          </div>
         </motion.div>
 
         <div className="hidden md:flex items-center gap-12">

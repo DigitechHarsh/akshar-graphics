@@ -34,11 +34,9 @@ export default function Hero() {
            animate={{ opacity: 1, x: 0 }}
            transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <h1 
-            className="text-7xl md:text-8xl font-black tracking-tight leading-[0.9] mb-8 text-slate-950"
-          >
+          <h1 className="text-4xl lg:text-5xl font-black text-slate-900 leading-[1.1] mb-8">
             Design Thinking <br />
-            <span className="accent-gradient">Made Visual.</span>
+            <span className="accent-gradient">Made Visual</span>
           </h1>
           <motion.p
             initial={{ opacity: 0 }}
@@ -78,8 +76,8 @@ export default function Hero() {
             transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
             className="absolute -top-6 -right-6 glass p-6 rounded-2xl shadow-xl border border-white/20"
           >
-            <div className="text-primary font-black text-2xl">10+</div>
-            <div className="text-[10px] uppercase tracking-widest font-bold text-slate-500">Years of Growth</div>
+            <div className="text-xl font-black text-slate-900">20+ years</div>
+            <div className="text-slate-500 text-xs font-bold uppercase tracking-widest">Experience</div>
           </motion.div>
         </motion.div>
       </div>

@@ -15,24 +15,29 @@ export default function Contact() {
             ready to bring your vision to life with precision and creativity.
           </p>
           <div className="space-y-10">
-            <div className="flex gap-8 group">
-              <div className="w-14 h-14 rounded-2xl bg-white flex items-center justify-center shadow-lg shadow-slate-200 text-primary group-hover:scale-110 transition-transform">
-                <MapPin />
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-primary/5 rounded-xl flex items-center justify-center shrink-0">
+                  <MapPin className="text-primary" size={20} />
+                </div>
+                <div>
+                  <h4 className="font-bold text-slate-900 mb-1 font-inter">Visit Us</h4>
+                  <p className="text-slate-500 text-sm leading-relaxed">
+                    11, Sahvas Apt., Chowki Sheri Naka,<br />
+                    Timaliyawad Main Road, Nanpura,<br />
+                    Surat-395001
+                  </p>
+                </div>
               </div>
-              <div>
-                <h4 className="font-bold text-slate-900 mb-1">Our Studio</h4>
-                <p className="text-slate-500">307, New Bombay Market, Umarwada, Surat</p>
+
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-primary/5 rounded-xl flex items-center justify-center shrink-0">
+                  <Phone className="text-primary" size={20} />
+                </div>
+                <div>
+                  <h4 className="font-bold text-slate-900 mb-1 font-inter">Call Us</h4>
+                  <p className="text-slate-500 text-sm">98981 91220</p>
+                </div>
               </div>
-            </div>
-            <div className="flex gap-8 group">
-              <div className="w-14 h-14 rounded-2xl bg-white flex items-center justify-center shadow-lg shadow-slate-200 text-primary group-hover:scale-110 transition-transform">
-                <Phone />
-              </div>
-              <div>
-                <h4 className="font-bold text-slate-900 mb-1">Call Us</h4>
-                <p className="text-slate-500">+91 98251 14464</p>
-              </div>
-            </div>
             <div className="flex gap-8 group">
               <div className="w-14 h-14 rounded-2xl bg-white flex items-center justify-center shadow-lg shadow-slate-200 text-primary group-hover:scale-110 transition-transform">
                 <Mail />

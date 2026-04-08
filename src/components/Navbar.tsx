@@ -34,11 +34,11 @@ export default function Navbar() {
           <img 
             src="/media/logo.png" 
             alt="Akshar Graphics Logo" 
-            className="h-full w-auto object-contain mix-blend-multiply"
+            className="h-16 w-auto object-contain mix-blend-multiply"
           />
-          <div className="flex flex-col -gap-1">
-            <span className="text-xl font-black text-slate-900 tracking-tighter leading-none">AKSHAR</span>
-            <span className="text-xs font-bold text-primary tracking-[0.2em] leading-none uppercase">Graphics</span>
+          <div className="flex flex-col">
+            <span className="text-2xl font-black text-slate-900 tracking-tighter leading-none">AKSHAR</span>
+            <span className="text-[10px] font-bold text-primary tracking-[0.3em] leading-none uppercase mt-1">Graphics</span>
           </div>
         </motion.div>
 

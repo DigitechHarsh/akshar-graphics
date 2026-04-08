@@ -12,7 +12,7 @@ export default function About() {
           className="relative"
         >
           <div className="rounded-[3rem] overflow-hidden border border-slate-100 shadow-2xl">
-            <img src="/media/branding.png" alt="Akshar Graphics Studio" className="w-full h-auto" />
+            <img src="/media/about_hero.png" alt="Akshar Graphics 3D Branding" className="w-full h-auto" />
           </div>
           {/* Decorative element */}
           <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-primary/5 rounded-full blur-3xl -z-10" />
